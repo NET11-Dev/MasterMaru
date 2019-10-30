@@ -1,0 +1,74 @@
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.csprojAssemblyReference.cache
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/ApplicationInsights.config
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/csc.exe
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/csc.exe.config
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/csc.rsp
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/csi.exe
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/csi.rsp
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/System.AppContext.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/System.Collections.Immutable.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/System.IO.FileSystem.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/System.Reflection.Metadata.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/vbc.exe
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/vbc.exe.config
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/vbc.rsp
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/VBCSCompiler.exe
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/roslyn/VBCSCompiler.exe.config
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Caja Recaudadora.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Caja Recaudadora.pdb
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Antlr3.Runtime.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.Agent.Intercept.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.DependencyCollector.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.PerfCounterCollector.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.ServerTelemetryChannel.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.Web.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.WindowsServer.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.ApplicationInsights.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.Web.Infrastructure.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Newtonsoft.Json.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Helpers.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Mvc.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Optimization.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Razor.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.WebPages.Deployment.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.WebPages.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.WebPages.Razor.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/WebGrease.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Helpers.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Mvc.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Optimization.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.Razor.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.WebPages.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.WebPages.Deployment.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/System.Web.WebPages.Razor.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Antlr3.Runtime.pdb
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Newtonsoft.Json.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.ApplicationInsights.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.DependencyCollector.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.ServerTelemetryChannel.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.WindowsServer.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/Microsoft.AI.Web.xml
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.Helpers.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.Mvc.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.Optimization.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.Razor.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.WebPages.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.WebPages.Deployment.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/bin/es/System.Web.WebPages.Razor.resources.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.csproj.CopyComplete
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.dll
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.pdb
