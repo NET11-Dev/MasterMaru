@@ -49,6 +49,14 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="sapnco, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\sapnco_utils.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -141,12 +149,38 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ConexionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\GF_AperturaCierre\DEF_CAJA.cs" />
+    <Compile Include="Models\GF_AperturaCierre\DEF_DENOM.cs" />
+    <Compile Include="Models\GF_AperturaCierre\ST_SUBTOTAL_ACC.cs" />
+    <Compile Include="Models\GF_AperturaCierre\ST_SUBTOTAL_VIAS.cs" />
+    <Compile Include="Models\GF_AperturaCierre\DET_EFECTIVO.cs" />
+    <Compile Include="Models\GF_AperturaCierre\DET_VIA_PAGO.cs" />
+    <Compile Include="Models\GF_Documentos\ST_BANCOS.cs" />
+    <Compile Include="Models\GF_Documentos\ST_CLIENTES.cs" />
+    <Compile Include="Models\GF_Documentos\ST_DET_ANEXOS.cs" />
+    <Compile Include="Models\GF_Documentos\ST_DET_DOCUMENTO.cs" />
+    <Compile Include="Models\GF_Documentos\ST_DET_VIASPAGO.cs" />
+    <Compile Include="Models\GF_Documentos\ST_DOCUMENTOS.cs" />
+    <Compile Include="Models\GF_Documentos\ST_RETORNO.cs" />
+    <Compile Include="Models\GF_Documentos\ST_SOCIEDADES.cs" />
+    <Compile Include="Models\GF_Documentos\ST_VIAS_ACC.cs" />
+    <Compile Include="Models\GF_Documentos\ST_VIAS_PAGO.cs" />
+    <Compile Include="Models\GF_Monitor_Pago\ST_MONITOR_CAB.cs" />
+    <Compile Include="Models\GF_Monitor_Pago\ST_MONITOR_DET.cs" />
+    <Compile Include="Models\GF_Monitor_Pago\ST_MONITOR_VIEW.cs" />
+    <Compile Include="Models\GF_Usuarios\ESTADO.cs" />
+    <Compile Include="Models\GF_Usuarios\FUNCIONALIDADES.cs" />
+    <Compile Include="Models\GF_Usuarios\PARAMS_USUARIO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiciosRfc\Rfc_AperturaCierre\CAJA_LOGIN.cs" />
+    <Compile Include="ServiciosRfc\Rfc_AperturaCierre\GF_APERTURA_CIERRE.cs" />
+    <Compile Include="ServiciosRfc\Rfc_Documentos\GF_DOCUMENTOS.cs" />
+    <Compile Include="ServiciosRfc\Rfc_MonitorPago\GF_MONITORPAGO.cs" />
+    <Compile Include="ServiciosRfc\Rfc_Usuarios\CAJA_LOGIN.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -188,8 +222,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="ServiciosRfc\Rfc_Usuarios\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
