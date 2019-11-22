@@ -1,0 +1,483 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Caja Marubeni</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
+    />
+    <meta name="description" content="Caja Marubeni">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+   
+
+    @Styles.Render("~/Content/main.css")
+</head>
+<body>
+<div class="app-container app-theme-gray">
+        <div class="app-main">
+            <div class="app-sidebar-wrapper">
+                <div class="app-sidebar sidebar-shadow">
+                    <div class="app-header__logo">
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Caja Recaudadora" class="logo-src"></a>
+                        
+                    </div>
+                         <div class="card-header-tab card-header">
+                            <div class="card-header-title font-size-lg text-capitalize font-weight-normal">
+                                <i class="header-icon pe-7s-monitor icon-gradient bg-malibu-beach"> </i>Monitor
+                            </div>
+                        <div class="btn-actions-pane-right text-capitalize actions-icon-btn">
+                            <div class="btn-group dropdown">
+                                <button type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false"
+                                        class="btn-icon btn-icon-only btn btn-link"><i
+                                        class="pe-7s-menu btn-icon-wrapper"></i></button>
+                                <div tabindex="-1" role="menu" aria-hidden="true"
+                                     class="dropdown-menu-right rm-pointers dropdown-menu-shadow dropdown-menu-hover-link dropdown-menu">
+                                    <h6 tabindex="-1"
+                                        class="dropdown-header">
+                                        Opciones</h6>
+
+                                    <button type="button" tabindex="0"
+                                            class="dropdown-item"><i
+                                            class="dropdown-icon lnr-cart"> </i><span>Añadir</span>
+                                    </button>
+                                    <button type="button" tabindex="0"
+                                            class="dropdown-item"><i
+                                            class="dropdown-icon lnr-sync"> </i><span>Refrescar</span>
+                                    </button>
+                                     <button type="button" tabindex="0"
+                                            class="dropdown-item"><i
+                                            class="dropdown-icon lnr-trash"> </i><span>Anular Documento</span>
+                                    </button>
+                                    <div tabindex="-1" class="dropdown-divider"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @RenderBody()
+                    
+                       <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                            <iframe class="embed-responsive-item" src="/Monitor/Index" ></iframe>
+                        <br />
+                           <br />
+                        </div>
+                    hh
+                    
+                    
+                       
+                                                 
+                </div>
+            </div>
+            <div class="app-sidebar-overlay d-none animated fadeIn"></div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="header-mobile-wrapper">
+                        <div class="app-header__logo">
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="KeroUI Admin Template" class="logo-src"></a>
+                            <button type="button" class="hamburger hamburger--elastic mobile-toggle-sidebar-nav">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                            <div class="app-header__menu">
+                            <span>
+                                <button type="button" class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                                    <span class="btn-icon-wrapper">
+                                        <i class="fa fa-ellipsis-v fa-w-6"></i>
+                                    </span>
+                                </button>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="app-header">
+                        <div class="page-title-heading">
+                            Caja Recaudadora
+                            <div class="page-title-subheading">
+                                Nombre de la caja 
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="app-header-right"> 
+                               
+                          
+                                <div class="header-btn-lg pr-0">
+                                <div class="header-dots">
+                                    <div class="dropdown">
+                                        <button type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown" class="p-0 mr-2 btn btn-link">
+                                             <i class="header-icon lnr-cart "> 
+                                           
+                                                    <div class="badge badge-pill badge-primary">
+                                                        3
+                                                    </div>
+                                                </i> 
+                                        </button>
+                                        <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu-xl rm-pointers dropdown-menu dropdown-menu-right">
+                                            <div class="dropdown-menu-header">
+                                                <div class="dropdown-menu-header-inner bg-vicious-stance">
+                                                    <div class="menu-header-image opacity-4" style="background-image: url('assets/images/dropdown-header/city5.jpg');"></div>
+                                                    <div class="menu-header-content text-white">
+                                                        <h5 class="menu-header-title">Total a pagar : $145.456</h5>
+                                                        <h6 class="menu-header-subtitle">
+                                                        Documentos: 3
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                             
+                                               
+                                                    <div class="card-body">
+                                                        <h6 class="text-muted text-uppercase font-size-md opacity-7 mb-3 font-weight-normal">
+                                                            Detalle de documentos</h6>
+                                                        <div class="border-light card-border scroll-area-sm card">
+                                                            <div class="scrollbar-container">
+                                                                <ul class="list-group list-group-flush">
+                                                                    <li class="list-group-item">
+                                                                        <div class="widget-content p-0">
+                                                                            <div class="widget-content-wrapper">
+                                                                                
+                                                                                <div class="widget-content-left">
+                                                                                    <div class="widget-heading">1004556
+                                                                                    </div>
+                                                                                    <div class="widget-subheading mt-1 opacity-10">
+                                                                                        <div class="badge badge-pill badge-primary">
+                                                                                            CLP
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="widget-content-right">
+                                                                                    <div class="fsize-2 text-success">
+                                                                                        <small class="opacity-5 pr-1">$
+                                                                                        </small>
+                                                                                        <span>750</span>
+                                                                                        
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                        <div class="widget-content p-0">
+                                                                            <div class="widget-content-wrapper">
+                                                                               
+                                                                                <div class="widget-content-left">
+                                                                                    <div class="widget-heading">1004523
+                                                                                    </div>
+                                                                                    <div class="widget-subheading mt-1 opacity-10">
+                                                                                        <div class="badge badge-pill badge-primary">
+                                                                                            CLP
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="widget-content-right">
+                                                                                    <div class="fsize-2 text-success">
+                                                                                        <small class="opacity-5 pr-1">$
+                                                                                        </small>
+                                                                                        <span>542</span>
+                                                                                     
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class="list-group-item">
+                                                                        <div class="widget-content p-0">
+                                                                            <div class="widget-content-wrapper">
+                                                                                
+                                                                                <div class="widget-content-left">
+                                                                                    <div class="widget-heading">10045289
+                                                                                    </div>
+                                                                                    <div class="widget-subheading mt-1 opacity-10">
+                                                                                        <div class="badge badge-pill badge-primary">
+                                                                                            CLP
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="widget-content-right">
+                                                                                    <div class="fsize-2 text-success">
+                                                                                        <small class="opacity-5 pr-1">$
+                                                                                        </small>
+                                                                                        <span>874</span>
+                                                                                        
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+ 
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                       
+                            <div class="header-btn-lg pr-0">
+                                 
+                                <div class="widget-content p-0">
+                                    
+                                     
+                                    
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left">
+                                            <div class="btn-group">
+                                                <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="p-0 btn">
+                                                    <div class="font-icon-wrapper"><i
+                                                                                    class="fa fa-fw"
+                                                                                    aria-hidden="true"
+                                                                                    title="Copy to use user"></i>
+                                                                               
+                                                                            </div>
+                                                 
+                                                </a>
+                                                <div tabindex="-1" role="menu" aria-hidden="true" class="rm-pointers dropdown-menu-lg dropdown-menu dropdown-menu-right">
+                                                    <div class="dropdown-menu-header">
+                                                        <div class="dropdown-menu-header-inner bg-info">
+                                                            <div class="menu-header-image opacity-2" style="background-image: url('assets/images/dropdown-header/city1.jpg');"></div>
+                                                            <div class="menu-header-content text-left">
+                                                                <div class="widget-content p-0">
+                                                                    <div class="widget-content-wrapper">
+                                                                        <div class="widget-content-left mr-3">
+                                                                            <div class="font-icon-wrapper"><i
+                                                                                    class="fa fa-fw"
+                                                                                    aria-hidden="true"
+                                                                                    title="Copy to use user"></i>
+                                                                               
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="widget-content-left">
+                                                                            <div class="widget-heading">
+                                                                                Guillermo Cifuentes
+                                                                            </div>
+                                                                            <div class="widget-subheading opacity-8">Caja Vicuña Mackena
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="widget-content-right mr-2">
+                                                                            <button class="btn-pill btn-shadow btn-shine btn btn-focus">Logout
+                                                                            </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                 
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    </div>
+                        <div class="app-header-overlay d-none animated fadeIn"></div>
+                    </div>
+                    
+                     <div class="app-inner-layout app-inner-layout-page">
+                        <div class="app-inner-bar">
+                            <div class="inner-bar-center">
+                                <ul class="nav">
+                                    <li class="nav-item">
+                                        <a role="tab" data-toggle="tab" id="tab-nav-0" class="nav-link active"
+                                           href="#tab-content-0">
+                                            <span>Pago de documentos</span>
+                                           
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" data-toggle="tab" id="tab-nav-1" class="nav-link"
+                                           href="#tab-content-1">
+                                            <span>Pago de cuotas</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" data-toggle="tab" id="tab-nav-2" class="nav-link"
+                                           href="#tab-content-2">
+                                            <span>Anticipos</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" data-toggle="tab" id="tab-nav-3" class="nav-link"
+                                           href="#tab-content-3">
+                                            <span>Anulación</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a role="tab" data-toggle="tab" id="tab-nav-4" class="nav-link"
+                                           href="#tab-content-4">
+                                            <span>Reimpresión</span>
+                                        </a>
+                                    </li>
+                                     
+                                    <li class="nav-item">
+                                        <a role="tab" data-toggle="tab" id="tab-nav-5" class="nav-link"
+                                           href="#tab-content-5">
+                                            <span>Cierre y arqueo de caja</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                                             
+                        </div>
+                        <div class="app-inner-layout__wrapper">
+                            <div class="app-inner-layout__content">
+                                <div class="tab-content">
+                                        <div class="tab-pane tabs-animation fade show active" id="tab-content-0"
+                                             role="tabpanel">
+                                             <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="main-card mb-3 card">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                                  <iframe class="embed-responsive-item" src="/PagoDocumentos/Index" allowfullscreen></iframe>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>      
+                                        </div>
+                                    
+                                                <div class="tab-pane tabs-animation fade" id="tab-content-1"
+                                         role="tabpanel">
+                                         <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="main-card mb-3 card">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                                  <iframe class="embed-responsive-item" src="/PagoCuotas/Index" allowfullscreen></iframe>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    
+                                     <div class="tab-pane tabs-animation fade" id="tab-content-2"
+                                         role="tabpanel">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="main-card mb-3 card">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                                  <iframe class="embed-responsive-item" src="/Anticipos/Index" allowfullscreen></iframe>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tab-pane tabs-animation fade" id="tab-content-3"
+                                         role="tabpanel">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="main-card mb-3 card">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                                  <iframe class="embed-responsive-item" src="/Anulacion/Index" allowfullscreen></iframe>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane tabs-animation fade" id="tab-content-4"
+                                         role="tabpanel">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="main-card mb-3 card">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                                  <iframe class="embed-responsive-item" src="/Reimpresion/Index" allowfullscreen></iframe>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="tab-pane tabs-animation fade" id="tab-content-5"
+                                         role="tabpanel">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="main-card mb-3 card">
+                                                        <div class="card-body">
+                                                            <div class="row">
+                                                                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                                                                  <iframe class="embed-responsive-item" src="/CierreArqueo/Index" allowfullscreen></iframe>
+                                                                </div>
+
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                            </div>
+                                
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+             
+                   </div>
+             </div>
+        </div>
+ </div>
+
+<div class="app-drawer-overlay d-none animated fadeIn"></div>
+@Scripts.Render("~/Content/assets/scripts/main.07a59de7b920cd76b874.js")
+</body>
+</html>

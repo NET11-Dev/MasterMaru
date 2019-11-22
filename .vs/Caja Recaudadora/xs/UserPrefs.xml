@@ -5,13 +5,13 @@
         <State name="__root__">
           <Node name="Caja Recaudadora" expanded="True">
             <Node name="Caja Recaudadora" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="ServiciosRfc" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Lista.cshtml" selected="True" />
+                <Node name="Monitor" expanded="True" />
+                <Node name="PagoCuotas" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
               </Node>
+              <Node name="Global.asax" expanded="True" />
             </Node>
           </Node>
         </State>
