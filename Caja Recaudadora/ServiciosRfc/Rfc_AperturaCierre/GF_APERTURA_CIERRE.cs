@@ -60,7 +60,7 @@ namespace Caja_Recaudadora.ServiciosRfc
 
                 string retval = "ERROR";
 
-                if (!string.IsNullOrEmpty(p_user) && !string.IsNullOrEmpty(p_pass)) retval = connectorSap.connectionsSAP(user, pass);
+                if (!string.IsNullOrEmpty(p_user) && !string.IsNullOrEmpty(p_pass)) retval = connectorSap.connectionsSAP(p_user, p_pass);
 
                 //Si el valor de retorno es nulo o vacio, hay conexion a SAP y la RFC trae datos   
                 if (string.IsNullOrEmpty(retval))

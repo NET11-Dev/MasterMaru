@@ -408,7 +408,7 @@ namespace Caja_Recaudadora.ServiciosRfc
         }
 
         public void pagodocumentos(string p_user, string p_pass, string p_total_facturas, string p_total_vias, string p_diferencia, string p_parcial, string p_excepcion, string p_txt_parcial, string p_txt_excepcion,
-                                   List<ST_DET_VIASPAGO> P_VIASPAGO, List<ST_DET_DOCUMENTO> P_DOCSAPAGAR, List<ST_DET_ANEXOS> P_ANEXOS)
+                                  List<ST_DET_VIASPAGO> P_VIASPAGO, List<ST_DET_DOCUMENTO> P_DOCSAPAGAR, List<ST_DET_ANEXOS> P_ANEXOS)
         {
             IRfcTable lt_PAGO_DOCS;
             IRfcTable lt_PAGO_MESS;
@@ -566,11 +566,18 @@ namespace Caja_Recaudadora.ServiciosRfc
                             t_retorno.Add(retorno);
                         }
                     }
-               }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("{0} Exception caught.", ex);
+                    }
+                }
+
+            }
             catch (Exception ex)
             {
                 Console.WriteLine("{0} Exception caught.", ex);
             }
         }
+
     }
 }
