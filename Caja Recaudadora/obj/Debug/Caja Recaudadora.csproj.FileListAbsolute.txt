@@ -71,3 +71,4 @@
 /Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.csproj.CopyComplete
 /Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.dll
 /Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.pdb
+/Users/guillermocifuentes/Documents/GitHub/MasterMaru/Caja Recaudadora/obj/Debug/Caja Recaudadora.csprojAssemblyReference.cache

@@ -5,25 +5,16 @@
         <State name="__root__">
           <Node name="Caja Recaudadora" expanded="True">
             <Node name="Caja Recaudadora" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Monitor" expanded="True" />
-                <Node name="PagoCuotas" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Global.asax" expanded="True" />
+              <Node name="Web.config" selected="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Caja_220Recaudadora PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Caja_220Recaudadora PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
